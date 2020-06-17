@@ -1,57 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <style>
-        img { width: 500px; height: 500px; }
-    </style>
-
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <div class="container">
-        <!--NavBar to navigate website-->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">Jacqueline Dean</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <a class="nav-item nav-link" href="index.html">About</a>
-                    <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
-                    <a class="nav-item nav-link" href="contact.html">Contact</a>
-                </div>
-            </div>
-        </nav>
-        <!--Portfolio Content-->
-        <section name="Portfolio">
-            <h2>Portfolio</h2>
+    <!--NavBar to navigate website-->
+    <!--NavBar to navigate website-->
+    <nav class="navbar navbar-light" style="background-color: white; width: 100%;">
+        <span class="navbar-brand mb-0 h"
+            style="background-color:blue; color: white; margin-left: 100px;">Jacqueline Dean</span>
+        <ul class="nav justify-content-end">
+            <li class="nav-item active">
+                <a class="nav-item nav-link" href="index.html">About</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-item nav-link" href="contact.html">Contact</a>
+            </li>
+        </ul>
+    </nav>
+    <!--Portfolio Content-->
+    <div class="container" id="portfolio">
+        <h2>Portfolio</h2>
+        <div class="row">
             <!--Project1-->
-            <a>
-                <img src="#" alt="placeholder image" class="img-thumbnail">
-            </a>
+            <div class="col-md-6">
+                <a>
+                    <img src="#" alt="--Project1--" class="img-thumbnail">
+                </a>
+            </div>
             <!--Project2-->
-            <a>
-                <img src="#" alt="placeholder image" class="img-thumbnail">
-            </a>
+            <div class="col-md-6">
+                <a>
+                    <img src="#" alt="--Project2--" class="img-thumbnail">
+                </a>
+            </div>
+        </div>
+        <div class="row">
             <!--Project3-->
-            <a>
-                <img src="#" alt="placeholder image" class="img-thumbnail">
-            </a>
+            <div class="col-md-6">
+                <a>
+                    <img src="#" alt="--Project3--" class="img-thumbnail">
+                </a>
+            </div>
             <!--Project4-->
-            <a>
-                <img src="#" alt="placeholder image" class="img-thumbnail">
-            </a>
+            <div class="col-md-6">
+                <a>
+                    <img src="#" alt="--Project4--" class="img-thumbnail">
+                </a>
+            </div>
+        </div>
+        <div class="row">
             <!--Project5-->
-            <a>
-                <img src="#" alt="placeholder image" class="img-thumbnail">
-            </a>
-        </section>
-    </div>
-    
+            <div class="col-md-6">
+                <a>
+                    <img src="#" alt="--Project5--" class="img-thumbnail">
+                </a>
+            </div>
+        </div>
+        </a>
+    </section>
+    <!--Sticky Footer-->
+    <!--Sticky Footer-->
+    <nav class="navbar fixed-bottom navbar-dark bg-dark" style="text-align:center">
+        <span class="navbar-text" class="text-center">@Copyright</span>
+    </nav>
+
 </body>
+
 </html>
