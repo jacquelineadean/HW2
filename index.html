@@ -4,72 +4,85 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Porfolio with Responsive Design</title>
-    <!--Link to Favicon-->
-    <link rel="icon" type="img.png" sizes="16x16" href="favicon-16x16.png">
-    <!--Link to Bootstrap-->
+    <title>Jacqueline Dean</title>
+    <!--Link Bootstrap-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <!--Link to CSS-->
+    <!--Link to Bootswatch-->
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <!--Link to CSS Style Sheet-->
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <!--NavBar to navigate website-->
-    <nav class="navbar navbar-light" style="background-color: white; width: 100%;">
-        <span class="navbar-brand mb-0 h"
-            style="background-color:blue; color: white; margin-left: 100px;">Jacqueline Dean</span>
-        <ul class="nav justify-content-end">
-            <li class="nav-item active">
-                <a class="nav-item nav-link" href="index.html">About</a>
-            </li>
-            <li class="nav-item active">
-                <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
-            </li>
-            <li class="nav-item active">
-                <a class="nav-item nav-link" href="contact.html">Contact</a>
-            </li>
-        </ul>
-    </nav>
-    <br>
-    <div class="container">
-        <!--Row 1-->
-        <div class="row">
-            <div class="col-md-12">
-                <div class="card">
-                    <div class="page-header">
-                        <h2>About Me</h2>
-                        <br>
-                        <!--Row 2-->
-                        <div class="row">
-                            <div class="col-md-3">
-                                <img src="FullSizeRender.jpeg" alt="Headshot" class="img-thumbnail float-left">
-                            </div>
-                            <div class="col-md-9" style="position: relative; padding: 20px;border: 20px; margin-right: 20px;">
-                                <p>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem obcaecati vitae facere
-                                    nam officia iusto nihil tenetur commodi harum unde quia, debitis eos cupiditate non
-                                    fugiat odit, ex natus cumque!
-                                </p>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis, omnis quasi
-                                    iusto earum necessitatibus doloribus adipisci! Quas, voluptas sint similique
-                                    repudiandae unde impedit ipsa quod quae nihil aliquid magni consectetur.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
+    <header>
+        <!--Nav Bar from Bootstrap-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">Jacqueline Dean</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ml-auto">
+                    <a class="nav-item nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
+                    <a class="nav-item nav-link" href="contact.html">Contact</a>
                 </div>
             </div>
-        </div>
-    </div>
+        </nav>
+    </header>
+    <br>
+    <!--About Me Container-->
+    <div class="container-fluid">
+        <div class="card about-me">
+            <div class="card-body">
 
+                <!--About Me Heading-->
+                <div class="row card-title">
+                    <div class="col-md-12">
+                        <h1 id="header">About Me</h1>
+                    </div>
+                </div>
+
+                <!--Divider-->
+                <hr class="rounded">
+
+                <div class="row">
+                    <!--Headshot-->
+                    <div class="col-md-5">
+                        <img id="mainphoto" src="FullSizeRender.jpeg" alt="Jacqueline">
+                    </div>
+                    <!--About me body text-->
+                    <div class="col-md-6">
+                        <div class="card-text">
+                            <p>My name is Jacqueline Dean, but most of the time I just go by Jac.</p>
+                            <p>Originally, I am from Georgia, but I moved to Texas last year and have been in love ever since. I
+                                graduated from the University of Georgia in 2019 with a Bachelor's Degree in Fashion
+                                Merchandising. After interning and working as an assistant buyer for a little less than a year,
+                                I knew it was not the career path for me and decided to take a sabbatical to fully immerse
+                                myself into the realm of programming. After self-teaching through countless videos or
+                                cirriculums, I decided to invest in the structure of a coding bootcamp and began the 12-week
+                                Full Stack Flex program through University of Texas in June.
+                            </p>
+                            <p>When I'm not programming, I try to get away from the screen and get outside. My favorite things
+                                to do all involve the great outdoors. Whether it's going for a run, hiking, kayaking, or just
+                                having a picnic in the park, I am happiest when I'm getting fresh air in the sun.
+                            </p>
+                        </div>
+                    </div>
+    
+                </div>
+
+            </div>
+        </div>    
+    </div>
     <!--Sticky Footer-->
-    <nav class="navbar fixed-bottom navbar-dark bg-dark" style="text-align:center">
-        <span class="navbar-text" class="text-center">@Copyright</span>
+    <nav class="navbar fixed-bottom navbarfooter navbar-dark bg-dark">
+        <a id="stickyfooter" class="navbar-brand mx-auto" href="#">&copy; Copyright</a>
     </nav>
 
-
+  
 </body>
 
 </html>

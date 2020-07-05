@@ -1,48 +1,13 @@
-* { 
-    box-sizing: border-box;
-}
-body {
-    margin: 0;
-    padding: 0;
-    font-size: 15px;
-    line-height: 1.5;
-    background-color: lightgray;
-}
-nav {
-    background: white;
-}
-a {
-    color: black;
-    text-align: center;
-    position: relative;
-    flex: auto;
-}
-img {
-    width: 400px;
-    float: left;
-    margin: 20px;
-} 
-.fixed-bottom,
-.navbar {
-    background-color: blue;
-}
-.fixed-bottom {
+/* About Me Container */
+.about-me {
     padding: 20px;
-    width: 100%;
-    bottom: 0;
 }
-.card {
-    padding: inherit;
-    width: 700px;
+/* Rounded border */
+.rounded {
+    border-top: 8px solid #343a40;;
+    border-radius: 5px;
 }
-@media only screen and (max-width: 768px) {
-    body {
-        width: 640px;
-    }
-    .navbar-brand,
-    .navbar,
-    .nav-link,
-    .card {
-        width: auto;
-    }
+/* Main Photo Sizing */
+#mainphoto {
+    height: 50%;
 }

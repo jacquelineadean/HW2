@@ -1,2 +1,2 @@
-# Portfolio-Bootstrap
+# CSS and Bootstrap Responsive Portfolio
 
