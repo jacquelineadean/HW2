@@ -6,11 +6,11 @@ You can access my webpage here: https://jacquelineadean.github.io/Portfolio-Boot
 ## Demo 
 The portfolio is comprised of three html pages: the home page, the portfolio page, and the contact page.
 ### The Home Page
-![Home Page](Home-Page.png)
+![Home Page](Assets/Home-Page.png)
 ### The Portfolio Page
-![Portfolio Page](Portfolio.png)
+![Portfolio Page](Assets/Portfolio.png)
 ### The Contact Page
-![Contact Page](Contact.png)
+![Contact Page](Assets/Contact.png)
 
 ## Technologies Used
 For this portfolio, I incorporated Bootstrap and Bootswatch to style the html files. 
