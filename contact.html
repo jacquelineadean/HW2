@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
+<body class="contact">
     <header>
         <!--Nav Bar from Bootstrap-->
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -32,47 +32,37 @@
             </div>
         </nav>
     </header>
+
     <br>
     <!--Contact Form-->
     <div class="container-fluid">
         <div class="row">
-            <div class="col-md-6 col-sm-12">
-                <div class="card">
+            <div class="col-sm-6">
+                <div class="card" id="contact-card">
                     <div class="card-body">
-                        <h2 class="card-title">Contact</h2>
-                        <!--Divider-->
-                        <hr class="rounded">
-                        <br>
-                        <div class="form-group">
-                            <label for="exampleInputName">Name:</label>
-                            <input type="name" class="form-control" id="exampleInputName" aria-describedby="nameHelp">
-                        </div>
-                        <div class="form-group">
-                            <label for="exampleInputEmail1">Email address:</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1"
-                                aria-describedby="emailHelp">
-                            </small>
-                        </div>
-                        <div class="form-group">
-                            <label for="exampleInputMessage">Message</label>
-                            <input type="message" class="form-control" id="exampleInputMessage1"
-                                aria-describedby="messageHelp">
-                            </small>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-6">
-                                <button type="submit" class="btn btn-primary mb-2">Submit</button>
-                            </div>
-                        </div>
+                        <h2 class="card-title">Let's Keep in Touch!</h2>
+                        <!-- Social media and contact links. -->
+                        <ul class="contact-list">
+                            <li><a href="mailto:jacquelineadean@gmail.com">jacquelineadean@gmail.com</a></li>
+                            <li><a href="https://github.com/jacquelineadean" target="_blank">Github</a></li>
+                            <li><a href="https://www.linkedin.com/in/jacqueline-dean-968a66150/"
+                                    target="_blank">LinkedIn</a></li>
+                            <li>
+                                <p href="#" target="_blank">Phone Number: (706)761-4652</p>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    <br>
+
     <!--Sticky Footer-->
     <nav class="navbar fixed-bottom navbarfooter navbar-dark bg-dark">
-        <a id="stickyfooter" class="navbar-brand mx-auto" href="#">&copy; Copyright</a>        
+        <a id="stickyfooter" class="navbar-brand mx-auto" href="#">&copy; Copyright</a>
     </nav>
+
 
 </body>
 
